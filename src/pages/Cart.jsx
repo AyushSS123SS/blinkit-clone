@@ -21,7 +21,7 @@ function Cart() {
   console.log("Cart Items:", cartItems);
   return (
     <div className="p-4 grid col-span-3">
-      <h2 className="text-3xl font-bold mb-3">Your Cart</h2>
+      <h2 className="text-xl font-semibold mb-3">Your Cart</h2>
       <div className="grid gap-3">
         {cartItems.map((item) => (
           <div
