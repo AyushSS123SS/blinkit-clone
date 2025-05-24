@@ -14,8 +14,8 @@ function App() {
     <Router>
       <div className="min-h-screen bg-gray-100">
         <nav className="bg-green-600 text-white p-4 flex justify-between">
-          <h1 className="text-4xl font-bold">Blinkit</h1>
-          <Link to="/cart" className=" text-2xl hover:underline">Cart</Link>
+          <h1 className="text-3xl font-bold">Blinkit</h1>
+          <Link to="/cart" className=" text-xl hover:underline">Cart</Link>
         </nav>
         <Routes>
           <Route path="/" element= {<Home />} />
